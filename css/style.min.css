@@ -10,7 +10,7 @@ body {
   padding: 16px 0;
 }
 
-.header__logo {
+.header__inner-logo {
   position: absolute;
   left: 400px;
   right: 1337px;
@@ -181,36 +181,6 @@ body {
       flex-grow: 0;
   margin: 0px 10px;
   margin-left: 21px;
-}
-
-.btns__flags-vector1 {
-  position: absolute;
-  padding: 19px 0;
-}
-
-.btns__flags-vector2 {
-  position: absolute;
-  padding: 19px 0;
-}
-
-.btns__flags-vector3 {
-  position: relative;
-  padding: 19px 0 0 13px;
-}
-
-.btns__flags-vector4 {
-  position: absolute;
-  padding: 0;
-}
-
-.btns__flags-vector3 {
-  position: absolute;
-  padding: 11px 0 0 66px;
-}
-
-.btns__flags-vector3 {
-  position: absolute;
-  padding: 11px 0 0 66px;
 }
 
 .btns__icon {
