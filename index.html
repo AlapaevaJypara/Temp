@@ -59,9 +59,14 @@
         <div class="container">
           <div class="banner__inner">
             <div class="banner__inner-left">
-              <p class="banner__inner-txt">+300 прошедших отбор психологов</p>
-              <h1>Сессии с психологом Онлайн</h1>
-              <button class="btns__btn-txt">Начать беседу</button>
+              <div class="banner__inner-intro">
+                <p class="banner__inner-txt">+300 прошедших отбор психологов</p>
+                <h1 class="banner__inner-title">Сессии с психологом Онлайн</h1>
+              </div>
+
+              <button class="btns__btn-txt-banner">
+                <p class="btn__txt">Начать беседу</p>
+              </button>
             </div>
             <div class="banner__inner-right">
               <img class="banner1" src="img/1.png" alt="yoga man" />
@@ -76,47 +81,72 @@
         <div class="container">
           <div class="app__inner">
             <div class="app__left-video">
-              <video controls="controls" poster="img/cover.png">
+              <!-- <video controls="controls" poster="img/cover.png">
                 <source src="#" type="video/mp4" />
-              </video>
-              <img src="img/youtube.png" alt="youtube" />
+              </video> -->
+              <img class="cover__app" src="img/cover.png" alt="playlist" />
+              <img class="app__youtube" src="img/youtube.png" alt="youtube" />
             </div>
             <div class="app__right">
-              <h2 class="section__title">
+              <h2 class="section__title-app">
                 Скачайте бесплатно приложение SPEAK
               </h2>
-              <img src="img/Speak-Logo1.png" alt="SpeakLogo" />
-              <p>SPEAK</p>
-              <p>онлайн сессии с психологом</p>
-              <p>доступно для iOS и Android</p>
-              <img src="img/appstore1.png" alt="appstore" />
-              <img src="img/GooglePlay.png" alt="GooglePlay" />
+              <div class="speakLogo">
+                <img class="speak__Logo" src="img/Speak-Logo1.png" alt="" />
+
+                <p class="speak__title">SPEAK</p>
+                <p class="speak__txt1">онлайн сессии с психологом</p>
+                <p class="speak__txt2">доступно для iOS и Android</p>
+              </div>
+
+              <img
+                class="img__appstore"
+                src="img/appstore1.png"
+                alt="appstore"
+              />
+              <img
+                class="img__googleplay"
+                src="img/GooglePlay.png"
+                alt="GooglePlay"
+              />
             </div>
           </div>
         </div>
       </section>
-      <section class="psychology">
+      <section class="psycholog">
         <div class="container">
-          <div class="psychology__inner">
-            <h2 class="section__title">
+          <div class="psy__inner">
+            <h2 class="psy__inner__section-title">
               Психологи работающие с актуальными темами
             </h2>
-            <ul class="menu">
-              <li class="menu__item">Чувства</li>
-              <li class="menu__item">Одиночество</li>
-              <li class="menu__item">Вредные привычки</li>
-              <li class="menu__item">Отношения</li>
-              <li class="menu__item">Работа</li>
-              <li class="menu__item">Смыслы</li>
-              <li class="menu__item">Одиночество</li>
-              <li class="menu__item">Отношения с близкими</li>
-            </ul>
-            <button class="btns__btn-txt">+300 психологов</button>
-            <div class="psychology__photo">
-              <ul class="menu-psy">
-                <li class="menu__item-psy">
-                  <img src="img/Psycholog1.png" alt="ИльяБлагов" />
-                  <p>Илья Благов</p>
+            <div class="psy__list">
+              <ul class="psy__list-menu">
+                <li class="psy__list-item">Чувства</li>
+                <li class="psy__list-item">Одиночество</li>
+                <li class="psy__list-item">Вредные привычки</li>
+                <li class="psy__list-item">Отношения</li>
+                <li class="psy__list-item">Работа</li>
+                <li class="psy__list-item">Смыслы</li>
+                <li class="psy__list-item">Одиночество</li>
+                <li class="psy__list-item">Одиночество</li>
+                <li class="psy__list-item">Отношения с близкими</li>
+                <li class="psy__list-item1">
+                  <button class="psy__list-btn">
+                    <p class="psy__list-txt">+300 психологов</p>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="psy__photo">
+              <ul class="psy__photo-menu">
+                <li class="psy__photo-item">
+                  <img
+                    class="img__psy"
+                    src="img/Psycholog1.png"
+                    alt="ИльяБлагов"
+                  />
+                  <p class="psy__img-txt">Илья Благов</p>
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
@@ -124,9 +154,9 @@
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_arrow-right.png" alt="arrow" />
                 </li>
-                <li class="menu__item-psy">
-                  <img src="img/Psycholog2.png" alt="Иванна" />
-                  <p>Иванна Есина</p>
+                <li class="psy__photo-item">
+                  <img class="img__psy" src="img/Psycholog2.png" alt="Иванна" />
+                  <p class="psy__img-txt">Иванна Есина</p>
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
@@ -134,9 +164,9 @@
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_arrow-right.png" alt="arrow" />
                 </li>
-                <li class="menu__item-psy">
-                  <img src="img/Psycholog3.png" alt="Артур" />
-                  <p>Артур Островский</p>
+                <li class="psy__photo-item">
+                  <img class="img__psy" src="img/Psycholog3.png" alt="Артур" />
+                  <p class="psy__img-txt">Артур Островский</p>
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
@@ -144,19 +174,26 @@
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_arrow-right.png" alt="arrow" />
                 </li>
-                <li class="menu__item-psy">
-                  <img src="img/Psycholog4.png" alt="Юлия" />
-                  <p>Юлия Заграничная</p>
+                <li class="psy__photo-item">
+                  <img class="img__psy" src="img/Psycholog4.png" alt="Юлия" />
+                  <p class="psy__img-txt">Юля Заграничная</p>
+                  <!-- <div class="psy__photo-stars"> -->
+                  <img
+                    class="psy__photo-stars"
+                    src="img/icon_star.png"
+                    alt="star"
+                  />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
-                  <img src="img/icon_star.png" alt="star" />
+                  <!-- </div> -->
+
                   <img src="img/icon_arrow-right.png" alt="arrow" />
                 </li>
-                <li class="menu__item-psy">
-                  <img src="img/Psycholog5.png" alt="Андрей" />
-                  <p>Анрей Ян</p>
+                <li class="psy__photo-item">
+                  <img class="img__psy" src="img/Psycholog5.png" alt="Андрей" />
+                  <p class="psy__img-txt">Андрей Ян</p>
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
                   <img src="img/icon_star.png" alt="star" />
@@ -168,7 +205,7 @@
             </div>
           </div>
           <div class="dots">
-            <img src="img/dot.png" alt="dot" />
+            <img class="dots__img1" src="img/dot.png" alt="dot" />
             <img src="img/dot.png" alt="dot" />
             <img src="img/dot1.png" alt="dot" />
             <img src="img/dot.png" alt="dot" />
@@ -180,42 +217,98 @@
         <div class="container">
           <div class="help__inner">
             <div class="help__left">
-              <h2 class="section__title">Поможем вам</h2>
+              <h2 class="section__title-help">Поможем вам</h2>
               <ul class="menu__help">
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Разрешить причины сложных отношений с партнером</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">
+                    Разрешить причины сложных отношений с партнером
+                  </p>
                 </li>
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Снять или снизить остроту переживаний</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">Снять или снизить остроту переживаний</p>
                 </li>
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Справиться с выгоранием на работе и найти мотивацию</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">
+                    Справиться с выгоранием на работе и найти мотивацию
+                  </p>
                 </li>
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Понять себя в отношениях с близкими людьми</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">
+                    Понять себя в отношениях с близкими людьми
+                  </p>
                 </li>
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Найти себя и понимать свои желания</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">Найти себя и понимать свои желания</p>
                 </li>
                 <li class="menu__item-help">
-                  <img src="img/icon_check.png" alt="check" />
-                  <img src="img/Ellipse.png" alt="ellipse" />
-                  <p>Исследовать и управлять изменениями в своей жизни</p>
+                  <img
+                    class="icon__check"
+                    src="img/icon_check.png"
+                    alt="check"
+                  />
+                  <img
+                    class="icon__ellipse"
+                    src="img/Ellipse.png"
+                    alt="ellipse"
+                  />
+                  <p class="help__txt">
+                    Исследовать и управлять изменениями в своей жизни
+                  </p>
                 </li>
               </ul>
             </div>
             <div class="help__right">
-              <img src="img/Help.png" alt="helpme" />
+              <img class="help__right-img" src="img/Help.png" alt="helpme" />
             </div>
           </div>
         </div>

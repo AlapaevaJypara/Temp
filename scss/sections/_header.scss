@@ -71,30 +71,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // flex-wrap: wrap;
   padding: 0;
-
   flex-direction: row;
-
   position: static;
   width: 204px;
   height: 44px;
   left: 1316px;
   top: 25px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 0px 20px;
+  margin: 0 405px 0 -365px;
 }
-
-// .vector1 {
-//   position: absolute;
-//   padding: 0 120px 0 0;
-//   margin: 15px 0 0 0;
-// }
 
 .btns__btn-txt {
   display: flex;
@@ -110,6 +98,7 @@
   background: linear-gradient(225deg, #00b9b6 0%, #00cdac 100%);
   box-shadow: 0px 15px 30px rgba(220, 232, 243, 0.25);
   border-radius: 12px;
+  border: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
