@@ -1,4 +1,5 @@
 .steps__inner {
+  margin: 0;
   position: absolute;
   width: 1698px;
   height: 559px;
@@ -44,13 +45,13 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  // gap: 10px;
+  gap: 29px;
 
-  // position: absolute;
-  // width: 740px;
-  // height: 444px;
-  // left: 400px;
-  // top: 3371px;
+  position: relative;
+  width: 740px;
+  height: 444px;
+  left: 0px;
+  top: 0px;
 }
 .steps__menu-item {
   list-style: none;
@@ -59,23 +60,19 @@
   height: 128px;
   left: 0px;
   top: 316px;
-
   border-radius: 12px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   align-self: stretch;
   flex-grow: 0;
-  margin: 30px 0px;
+  margin: 0px 0px;
 }
 .steps__num {
   position: relative;
   width: 100px;
   height: 128px;
   left: 0;
-  top: -14px;
+  top: 25px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -83,33 +80,21 @@
   line-height: 100%;
   margin: 0;
   padding: 0;
-  /* identical to box height, or 128px */
-
-  /* txt / accent */
-
   color: #00b9b6;
-
   opacity: 0.1;
 }
 .steps__title {
   position: relative;
   height: 28px;
   left: 47px;
-  top: -121px;
+  top: -86px;
   margin: 0;
   padding: 0;
-
-  /* decktop/h/ h5 */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 140%;
-  /* identical to box height, or 28px */
-
-  /* txt/black */
-
   color: #0e0e0f;
 }
 .steps-txt {
@@ -117,8 +102,8 @@
   width: 690px;
   height: 54px;
   left: 48px;
-  top: -121px;
-  margin: 0;
+  top: -86px;
+  // margin: 0;
   padding: 0;
 
   font-family: "Inter";
@@ -126,14 +111,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  /* or 27px */
-
-  /* txt/black_lighten */
-
   color: #333333;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   align-self: stretch;
@@ -145,5 +123,5 @@
   width: 408px;
   height: 428px;
   left: 740px;
-  top: -560px;
+  top: -436px;
 }

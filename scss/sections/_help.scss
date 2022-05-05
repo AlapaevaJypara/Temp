@@ -21,15 +21,6 @@
   border-radius: 24px;
 }
 .menu__help {
-  // margin: 0;
-  // padding: 0;
-  // width: 678px;
-  // display: flex;
-  // flex-direction: column;
-  // gap: 0px;
-  // position: relative;
-  // left: 0;
-  // top: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -41,20 +32,24 @@
   left: 38px;
   top: -24px;
 
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 40px 0px;
 }
 .menu__help-item {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: flex-start;
-  // padding: 0px;
-  // gap: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 533px;
+  height: 25px;
+  left: -29px;
+  top: 18px;
   list-style: none;
+  margin: 8px 0;
 }
 .section__title-help {
   position: static;
@@ -95,16 +90,19 @@
 }
 
 .icon__ellipse {
+  margin: 0;
+
   position: relative;
   width: 20px;
   height: 20px;
-  right: 52px;
-  top: 26px;
+  right: 20px;
+  top: -5px;
 }
 .icon__check {
+  margin: 0;
   position: relative;
-  right: 34px;
-  top: 21px;
+  left: -4px;
+  top: -4px;
 }
 
 .help__right {
