@@ -2594,7 +2594,7 @@ body {
   color: #0e0e0f;
 }
 
-.speakLogo {
+.speakLogo2 {
   margin: 0;
   padding: 0;
   position: relative;
@@ -2602,15 +2602,15 @@ body {
   top: -136px;
 }
 
-.img__appstore {
+.img__appstore2 {
   position: relative;
   left: -29px;
   top: -104px;
 }
 
-.img__googleplay {
+.img__googleplay2 {
   position: relative;
-  right: 0px;
+  right: 74px;
   top: -104px;
 }
 
