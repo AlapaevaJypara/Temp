@@ -2544,6 +2544,7 @@ body {
   height: 48px;
   left: 273px;
   top: 0px;
+  color: #00b9b6;
   background: #ffffff;
   -webkit-box-shadow: 0px 15px 30px rgba(220, 232, 243, 0.25);
           box-shadow: 0px 15px 30px rgba(220, 232, 243, 0.25);
@@ -2563,6 +2564,60 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 120%;
+}
+
+.app2__inner {
+  position: absolute;
+  width: 1670px;
+  height: 497px;
+  left: 400px;
+  top: 6291px;
+}
+
+.section__title-app2 {
+  position: relative;
+  width: 432.11px;
+  height: 86px;
+  left: 0px;
+  top: -7px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0e0e0f;
+}
+
+.speakLogo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 2px;
+  top: -136px;
+}
+
+.img__appstore {
+  position: relative;
+  left: -29px;
+  top: -104px;
+}
+
+.img__googleplay {
+  position: relative;
+  right: 0px;
+  top: -104px;
+}
+
+.app2__inner-right {
+  position: relative;
+  left: 624px;
+  top: -502px;
 }
 
 html {
