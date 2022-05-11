@@ -1,0 +1,224 @@
+.reviews__inner {
+  position: absolute;
+  width: 1140px;
+  height: 437px;
+  left: 400px;
+  top: 6928px;
+}
+.reviews__inner-title {
+  margin: 0 0 50px 0;
+  position: relative;
+  width: 147px;
+  height: 43px;
+  left: 0px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #0e0e0f;
+}
+.reviews__inner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  position: static;
+  width: 549px;
+  height: 304px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+}
+.reviews__left-img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  right: 195px;
+  top: 50px;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+.reviews-left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+  width: 359px;
+  height: 244px;
+  left: 66px;
+  top: -66px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 30px;
+}
+.reviews__left-txt1 {
+  position: relative;
+  width: 102px;
+  height: 21px;
+  left: 0px;
+  top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.reviews__left-txt2 {
+  position: relative;
+  width: 64px;
+  height: 21px;
+  left: -1px;
+  top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.reviews__left-txt3 {
+  position: relative;
+  width: 359px;
+  height: 192px;
+  right: 1px;
+  top: -6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+.reviews__left-img1 {
+  position: relative;
+  left: 266px;
+  top: -28px;
+  margin-left: 3px;
+}
+.reviews__inner-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  position: relative;
+  width: 551px;
+  height: 256px;
+  left: 549px;
+  top: -293px;
+  background: #ffffff;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+.reviews__right-img1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: -196px;
+  top: 82px;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+.reviews__right-txt1 {
+  position: relative;
+  width: 95px;
+  height: 21px;
+  left: 65px;
+  top: -18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.reviews__right-txt2 {
+  position: relative;
+  width: 45px;
+  height: 21px;
+  left: 65px;
+  top: -34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  // margin: 0px 0px;
+}
+.reviews__right-img {
+  position: relative;
+  left: 334px;
+  top: -97px;
+  margin-left: 3px;
+}
+.reviews__right-txt3 {
+  position: relative;
+  width: 361px;
+  height: 144px;
+  right: -65px;
+  top: -73px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+.reviews__dots {
+  margin: 0;
+  position: relative;
+  top: 19px;
+  right: 169px;
+}
